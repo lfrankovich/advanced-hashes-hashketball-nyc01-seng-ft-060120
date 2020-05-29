@@ -185,8 +185,6 @@ stats = {}
     team_data[:players].each do |player|
       if player[:player_name] == player_lookup
         stats = player
-        binding.pry
-        stats.delete(:player_name)
       end
     end
   end
